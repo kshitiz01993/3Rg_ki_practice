@@ -13,7 +13,7 @@ vnetdetails = {
     address_space       = ["10.56.0.0/16"]
   }
 
-   vnet3 = {
+  vnet3 = {
     name                = "backend_vnet"
     location            = "westus"
     resource_group_name = "bibhoo"
