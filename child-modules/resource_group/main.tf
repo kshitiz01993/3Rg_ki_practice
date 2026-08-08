@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "lucky" {
+resource "azurerm_resource_group" "this" {
   for_each = var.rgdetails
 
   name     = each.value.name
