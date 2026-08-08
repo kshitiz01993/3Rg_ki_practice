@@ -47,7 +47,7 @@ jobs:
         working-directory: environment/prod
         run: terraform plan
 
-      # # Apply Changes
-      # - name: Terraform Apply
-      #   working-directory: environment/prod
-      #   run: terraform apply -auto-approve
+      # Apply Changes
+      - name: Terraform Apply
+        working-directory: environment/prod
+        run: terraform apply -auto-approve
