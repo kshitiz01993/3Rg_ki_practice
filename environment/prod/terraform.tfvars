@@ -8,6 +8,7 @@ rgdetails = {
     name     = "bibhoo"
     location = "Westus"
   }
+ 
 
 }
 
