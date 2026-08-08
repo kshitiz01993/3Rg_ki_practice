@@ -1,4 +1,4 @@
-name: My Indus CI.CD Pipeline
+name: My 2rg wala pipeline
 
 on:
   push:
