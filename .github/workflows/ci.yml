@@ -33,21 +33,21 @@ jobs:
 
       # Initialize Terraform
       - name: Terraform Init
-        working-directory: environment\prod
+        working-directory: environment/prod
         run: terraform init
 
       # Validate Terraform
         # Validate configuration
       - name: Terraform Validate
-        working-directory: environment\prod
+        working-directory: environment/prod
         run: terraform validate
 
       # Create Execution Plan
       - name: Terraform Plan
-        working-directory: environment\prod
+        working-directory: environment/prod
         run: terraform plan
 
-      # Apply Changes
-      - name: Terraform Apply
-        working-directory: environment\prod
-        run: terraform apply -auto-approve
+      # # Apply Changes
+      # - name: Terraform Apply
+      #   working-directory: environment/prod
+      #   run: terraform apply -auto-approve
