@@ -9,6 +9,10 @@ rgdetails = {
     location = "Westus"
   }
  
+  rg3 = {
+    name     = "abhi"
+    location = "Westus"
+  }
 
 }
 
