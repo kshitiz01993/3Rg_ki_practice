@@ -8,6 +8,10 @@ rgdetails = {
     name     = "bibhoo"
     location = "Westus"
   }
+  rg3 = {
+    name     = "Anki"
+    location = "Westus"
+  }
 }
 
 vnetdetails = {
