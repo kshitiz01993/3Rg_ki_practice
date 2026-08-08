@@ -11,7 +11,7 @@ snetdetails = {
     virtual_network_name = "backend_vnet"
     address_prefixes     = ["10.56.1.0/24"]
   }
-   snet3 = {
+  snet3 = {
     name                 = "backend_subnet"
     resource_group_name  = "bibhoo"
     virtual_network_name = "backend_vnet"
